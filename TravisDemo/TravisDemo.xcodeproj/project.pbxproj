@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F962EFE18878F3800433F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F962EFD18878F3800433F79 /* Foundation.framework */; };
+		0F962F0018878F3800433F79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F962EFF18878F3800433F79 /* CoreGraphics.framework */; };
+		0F962F0218878F3800433F79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F962F0118878F3800433F79 /* UIKit.framework */; };
+		0F962F0418878F3800433F79 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F962F0318878F3800433F79 /* CoreData.framework */; };
+		0F962F0A18878F3800433F79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F962F0818878F3800433F79 /* InfoPlist.strings */; };
+		0F962F0C18878F3800433F79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F962F0B18878F3800433F79 /* main.m */; };
+		0F962F1018878F3800433F79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F962F0F18878F3800433F79 /* AppDelegate.m */; };
+		0F962F1318878F3800433F79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F962F1118878F3800433F79 /* Main.storyboard */; };
+		0F962F1618878F3800433F79 /* TravisDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F962F1418878F3800433F79 /* TravisDemo.xcdatamodeld */; };
+		0F962F1918878F3800433F79 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F962F1818878F3800433F79 /* MasterViewController.m */; };
+		0F962F1C18878F3800433F79 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F962F1B18878F3800433F79 /* DetailViewController.m */; };
+		0F962F1E18878F3800433F79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F962F1D18878F3800433F79 /* Images.xcassets */; };
+		0F962F2518878F3800433F79 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F962F2418878F3800433F79 /* XCTest.framework */; };
+		0F962F2618878F3800433F79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F962EFD18878F3800433F79 /* Foundation.framework */; };
+		0F962F2718878F3800433F79 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F962F0118878F3800433F79 /* UIKit.framework */; };
+		0F962F2818878F3800433F79 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F962F0318878F3800433F79 /* CoreData.framework */; };
+		0F962F3018878F3800433F79 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0F962F2E18878F3800433F79 /* InfoPlist.strings */; };
+		0F962F3218878F3800433F79 /* TravisDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F962F3118878F3800433F79 /* TravisDemoTests.m */; };
+		0F962F3C18878FAD00433F79 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 0F962F3B18878FAD00433F79 /* .travis.yml */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F962F2918878F3800433F79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0F962EF218878F3800433F79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F962EF918878F3800433F79;
+			remoteInfo = TravisDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F962EFA18878F3800433F79 /* TravisDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravisDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F962EFD18878F3800433F79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0F962EFF18878F3800433F79 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0F962F0118878F3800433F79 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0F962F0318878F3800433F79 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0F962F0718878F3800433F79 /* TravisDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravisDemo-Info.plist"; sourceTree = "<group>"; };
+		0F962F0918878F3800433F79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F962F0B18878F3800433F79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0F962F0D18878F3800433F79 /* TravisDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TravisDemo-Prefix.pch"; sourceTree = "<group>"; };
+		0F962F0E18878F3800433F79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0F962F0F18878F3800433F79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0F962F1218878F3800433F79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F962F1518878F3800433F79 /* TravisDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TravisDemo.xcdatamodel; sourceTree = "<group>"; };
+		0F962F1718878F3800433F79 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		0F962F1818878F3800433F79 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		0F962F1A18878F3800433F79 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0F962F1B18878F3800433F79 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0F962F1D18878F3800433F79 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0F962F2318878F3800433F79 /* TravisDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F962F2418878F3800433F79 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0F962F2D18878F3800433F79 /* TravisDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TravisDemoTests-Info.plist"; sourceTree = "<group>"; };
+		0F962F2F18878F3800433F79 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0F962F3118878F3800433F79 /* TravisDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TravisDemoTests.m; sourceTree = "<group>"; };
+		0F962F3B18878FAD00433F79 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F962EF718878F3800433F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F962F0018878F3800433F79 /* CoreGraphics.framework in Frameworks */,
+				0F962F0418878F3800433F79 /* CoreData.framework in Frameworks */,
+				0F962F0218878F3800433F79 /* UIKit.framework in Frameworks */,
+				0F962EFE18878F3800433F79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F962F2018878F3800433F79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F962F2518878F3800433F79 /* XCTest.framework in Frameworks */,
+				0F962F2818878F3800433F79 /* CoreData.framework in Frameworks */,
+				0F962F2718878F3800433F79 /* UIKit.framework in Frameworks */,
+				0F962F2618878F3800433F79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F962EF118878F3800433F79 = {
+			isa = PBXGroup;
+			children = (
+				0F962F3B18878FAD00433F79 /* .travis.yml */,
+				0F962F0518878F3800433F79 /* TravisDemo */,
+				0F962F2B18878F3800433F79 /* TravisDemoTests */,
+				0F962EFC18878F3800433F79 /* Frameworks */,
+				0F962EFB18878F3800433F79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F962EFB18878F3800433F79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F962EFA18878F3800433F79 /* TravisDemo.app */,
+				0F962F2318878F3800433F79 /* TravisDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F962EFC18878F3800433F79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F962EFD18878F3800433F79 /* Foundation.framework */,
+				0F962EFF18878F3800433F79 /* CoreGraphics.framework */,
+				0F962F0118878F3800433F79 /* UIKit.framework */,
+				0F962F0318878F3800433F79 /* CoreData.framework */,
+				0F962F2418878F3800433F79 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F962F0518878F3800433F79 /* TravisDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0F962F0E18878F3800433F79 /* AppDelegate.h */,
+				0F962F0F18878F3800433F79 /* AppDelegate.m */,
+				0F962F1118878F3800433F79 /* Main.storyboard */,
+				0F962F1718878F3800433F79 /* MasterViewController.h */,
+				0F962F1818878F3800433F79 /* MasterViewController.m */,
+				0F962F1A18878F3800433F79 /* DetailViewController.h */,
+				0F962F1B18878F3800433F79 /* DetailViewController.m */,
+				0F962F1D18878F3800433F79 /* Images.xcassets */,
+				0F962F1418878F3800433F79 /* TravisDemo.xcdatamodeld */,
+				0F962F0618878F3800433F79 /* Supporting Files */,
+			);
+			path = TravisDemo;
+			sourceTree = "<group>";
+		};
+		0F962F0618878F3800433F79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F962F0718878F3800433F79 /* TravisDemo-Info.plist */,
+				0F962F0818878F3800433F79 /* InfoPlist.strings */,
+				0F962F0B18878F3800433F79 /* main.m */,
+				0F962F0D18878F3800433F79 /* TravisDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F962F2B18878F3800433F79 /* TravisDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F962F3118878F3800433F79 /* TravisDemoTests.m */,
+				0F962F2C18878F3800433F79 /* Supporting Files */,
+			);
+			path = TravisDemoTests;
+			sourceTree = "<group>";
+		};
+		0F962F2C18878F3800433F79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F962F2D18878F3800433F79 /* TravisDemoTests-Info.plist */,
+				0F962F2E18878F3800433F79 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F962EF918878F3800433F79 /* TravisDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F962F3518878F3800433F79 /* Build configuration list for PBXNativeTarget "TravisDemo" */;
+			buildPhases = (
+				0F962EF618878F3800433F79 /* Sources */,
+				0F962EF718878F3800433F79 /* Frameworks */,
+				0F962EF818878F3800433F79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravisDemo;
+			productName = TravisDemo;
+			productReference = 0F962EFA18878F3800433F79 /* TravisDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0F962F2218878F3800433F79 /* TravisDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F962F3818878F3800433F79 /* Build configuration list for PBXNativeTarget "TravisDemoTests" */;
+			buildPhases = (
+				0F962F1F18878F3800433F79 /* Sources */,
+				0F962F2018878F3800433F79 /* Frameworks */,
+				0F962F2118878F3800433F79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0F962F2A18878F3800433F79 /* PBXTargetDependency */,
+			);
+			name = TravisDemoTests;
+			productName = TravisDemoTests;
+			productReference = 0F962F2318878F3800433F79 /* TravisDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F962EF218878F3800433F79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = iBokan;
+				TargetAttributes = {
+					0F962F2218878F3800433F79 = {
+						TestTargetID = 0F962EF918878F3800433F79;
+					};
+				};
+			};
+			buildConfigurationList = 0F962EF518878F3800433F79 /* Build configuration list for PBXProject "TravisDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F962EF118878F3800433F79;
+			productRefGroup = 0F962EFB18878F3800433F79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F962EF918878F3800433F79 /* TravisDemo */,
+				0F962F2218878F3800433F79 /* TravisDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F962EF818878F3800433F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F962F1E18878F3800433F79 /* Images.xcassets in Resources */,
+				0F962F0A18878F3800433F79 /* InfoPlist.strings in Resources */,
+				0F962F3C18878FAD00433F79 /* .travis.yml in Resources */,
+				0F962F1318878F3800433F79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F962F2118878F3800433F79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F962F3018878F3800433F79 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F962EF618878F3800433F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F962F1C18878F3800433F79 /* DetailViewController.m in Sources */,
+				0F962F1918878F3800433F79 /* MasterViewController.m in Sources */,
+				0F962F1018878F3800433F79 /* AppDelegate.m in Sources */,
+				0F962F1618878F3800433F79 /* TravisDemo.xcdatamodeld in Sources */,
+				0F962F0C18878F3800433F79 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0F962F1F18878F3800433F79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F962F3218878F3800433F79 /* TravisDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0F962F2A18878F3800433F79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0F962EF918878F3800433F79 /* TravisDemo */;
+			targetProxy = 0F962F2918878F3800433F79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0F962F0818878F3800433F79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F962F0918878F3800433F79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0F962F1118878F3800433F79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F962F1218878F3800433F79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F962F2E18878F3800433F79 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F962F2F18878F3800433F79 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F962F3318878F3800433F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0F962F3418878F3800433F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F962F3618878F3800433F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravisDemo/TravisDemo-Prefix.pch";
+				INFOPLIST_FILE = "TravisDemo/TravisDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0F962F3718878F3800433F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravisDemo/TravisDemo-Prefix.pch";
+				INFOPLIST_FILE = "TravisDemo/TravisDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0F962F3918878F3800433F79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TravisDemo.app/TravisDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravisDemo/TravisDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TravisDemoTests/TravisDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0F962F3A18878F3800433F79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TravisDemo.app/TravisDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TravisDemo/TravisDemo-Prefix.pch";
+				INFOPLIST_FILE = "TravisDemoTests/TravisDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F962EF518878F3800433F79 /* Build configuration list for PBXProject "TravisDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F962F3318878F3800433F79 /* Debug */,
+				0F962F3418878F3800433F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F962F3518878F3800433F79 /* Build configuration list for PBXNativeTarget "TravisDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F962F3618878F3800433F79 /* Debug */,
+				0F962F3718878F3800433F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F962F3818878F3800433F79 /* Build configuration list for PBXNativeTarget "TravisDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F962F3918878F3800433F79 /* Debug */,
+				0F962F3A18878F3800433F79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0F962F1418878F3800433F79 /* TravisDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0F962F1518878F3800433F79 /* TravisDemo.xcdatamodel */,
+			);
+			currentVersion = 0F962F1518878F3800433F79 /* TravisDemo.xcdatamodel */;
+			path = TravisDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0F962EF218878F3800433F79 /* Project object */;
+}
