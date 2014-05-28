@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C0302D31904AAFB000670C5 /* CDDemo5.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2C0302D11904AAFB000670C5 /* CDDemo5.xcdatamodeld */; };
+		2C0302D91904ABCB000670C5 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0302D81904ABCB000670C5 /* TableViewController.m */; };
+		2C0302DC1904AF94000670C5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0302DB1904AF94000670C5 /* Person.m */; };
+		2C7E82221900B1D5008CA9DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7E82211900B1D5008CA9DD /* Foundation.framework */; };
+		2C7E82241900B1D5008CA9DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7E82231900B1D5008CA9DD /* CoreGraphics.framework */; };
+		2C7E82261900B1D5008CA9DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7E82251900B1D5008CA9DD /* UIKit.framework */; };
+		2C7E822C1900B1D5008CA9DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E822A1900B1D5008CA9DD /* InfoPlist.strings */; };
+		2C7E822E1900B1D5008CA9DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E822D1900B1D5008CA9DD /* main.m */; };
+		2C7E82321900B1D5008CA9DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E82311900B1D5008CA9DD /* AppDelegate.m */; };
+		2C7E82341900B1D5008CA9DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E82331900B1D5008CA9DD /* Images.xcassets */; };
+		2C7E823B1900B1D5008CA9DD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7E823A1900B1D5008CA9DD /* XCTest.framework */; };
+		2C7E823C1900B1D5008CA9DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7E82211900B1D5008CA9DD /* Foundation.framework */; };
+		2C7E823D1900B1D5008CA9DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7E82251900B1D5008CA9DD /* UIKit.framework */; };
+		2C7E82451900B1D5008CA9DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C7E82431900B1D5008CA9DD /* InfoPlist.strings */; };
+		2C7E82471900B1D5008CA9DD /* CDDemo5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7E82461900B1D5008CA9DD /* CDDemo5Tests.m */; };
+		9FEE8D81A01F4B56B8CEA913 /* libPods-CDDemo5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 868CBB57275747E5824A4F46 /* libPods-CDDemo5.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C7E823E1900B1D5008CA9DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C7E82161900B1D5008CA9DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C7E821D1900B1D5008CA9DD;
+			remoteInfo = CDDemo5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C0302D21904AAFB000670C5 /* CDDemo5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDDemo5.xcdatamodel; sourceTree = "<group>"; };
+		2C0302D71904ABCB000670C5 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		2C0302D81904ABCB000670C5 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		2C0302DA1904AF94000670C5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2C0302DB1904AF94000670C5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2C7E821E1900B1D5008CA9DD /* CDDemo5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDDemo5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7E82211900B1D5008CA9DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2C7E82231900B1D5008CA9DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2C7E82251900B1D5008CA9DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2C7E82291900B1D5008CA9DD /* CDDemo5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CDDemo5-Info.plist"; sourceTree = "<group>"; };
+		2C7E822B1900B1D5008CA9DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C7E822D1900B1D5008CA9DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C7E822F1900B1D5008CA9DD /* CDDemo5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CDDemo5-Prefix.pch"; sourceTree = "<group>"; };
+		2C7E82301900B1D5008CA9DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C7E82311900B1D5008CA9DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C7E82331900B1D5008CA9DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2C7E82391900B1D5008CA9DD /* CDDemo5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDDemo5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7E823A1900B1D5008CA9DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2C7E82421900B1D5008CA9DD /* CDDemo5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CDDemo5Tests-Info.plist"; sourceTree = "<group>"; };
+		2C7E82441900B1D5008CA9DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2C7E82461900B1D5008CA9DD /* CDDemo5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CDDemo5Tests.m; sourceTree = "<group>"; };
+		868CBB57275747E5824A4F46 /* libPods-CDDemo5.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CDDemo5.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		999D342B28654DF2BF05DA88 /* Pods-CDDemo5.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CDDemo5.xcconfig"; path = "Pods/Pods-CDDemo5.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C7E821B1900B1D5008CA9DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7E82241900B1D5008CA9DD /* CoreGraphics.framework in Frameworks */,
+				2C7E82261900B1D5008CA9DD /* UIKit.framework in Frameworks */,
+				2C7E82221900B1D5008CA9DD /* Foundation.framework in Frameworks */,
+				9FEE8D81A01F4B56B8CEA913 /* libPods-CDDemo5.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7E82361900B1D5008CA9DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7E823B1900B1D5008CA9DD /* XCTest.framework in Frameworks */,
+				2C7E823D1900B1D5008CA9DD /* UIKit.framework in Frameworks */,
+				2C7E823C1900B1D5008CA9DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C7E82151900B1D5008CA9DD = {
+			isa = PBXGroup;
+			children = (
+				2C7E82271900B1D5008CA9DD /* CDDemo5 */,
+				2C7E82401900B1D5008CA9DD /* CDDemo5Tests */,
+				2C7E82201900B1D5008CA9DD /* Frameworks */,
+				2C7E821F1900B1D5008CA9DD /* Products */,
+				999D342B28654DF2BF05DA88 /* Pods-CDDemo5.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		2C7E821F1900B1D5008CA9DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E821E1900B1D5008CA9DD /* CDDemo5.app */,
+				2C7E82391900B1D5008CA9DD /* CDDemo5Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C7E82201900B1D5008CA9DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E82211900B1D5008CA9DD /* Foundation.framework */,
+				2C7E82231900B1D5008CA9DD /* CoreGraphics.framework */,
+				2C7E82251900B1D5008CA9DD /* UIKit.framework */,
+				2C7E823A1900B1D5008CA9DD /* XCTest.framework */,
+				868CBB57275747E5824A4F46 /* libPods-CDDemo5.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2C7E82271900B1D5008CA9DD /* CDDemo5 */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E82301900B1D5008CA9DD /* AppDelegate.h */,
+				2C7E82311900B1D5008CA9DD /* AppDelegate.m */,
+				2C0302D71904ABCB000670C5 /* TableViewController.h */,
+				2C0302D81904ABCB000670C5 /* TableViewController.m */,
+				2C0302D11904AAFB000670C5 /* CDDemo5.xcdatamodeld */,
+				2C0302DA1904AF94000670C5 /* Person.h */,
+				2C0302DB1904AF94000670C5 /* Person.m */,
+				2C7E82331900B1D5008CA9DD /* Images.xcassets */,
+				2C7E82281900B1D5008CA9DD /* Supporting Files */,
+			);
+			path = CDDemo5;
+			sourceTree = "<group>";
+		};
+		2C7E82281900B1D5008CA9DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E82291900B1D5008CA9DD /* CDDemo5-Info.plist */,
+				2C7E822A1900B1D5008CA9DD /* InfoPlist.strings */,
+				2C7E822D1900B1D5008CA9DD /* main.m */,
+				2C7E822F1900B1D5008CA9DD /* CDDemo5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2C7E82401900B1D5008CA9DD /* CDDemo5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E82461900B1D5008CA9DD /* CDDemo5Tests.m */,
+				2C7E82411900B1D5008CA9DD /* Supporting Files */,
+			);
+			path = CDDemo5Tests;
+			sourceTree = "<group>";
+		};
+		2C7E82411900B1D5008CA9DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C7E82421900B1D5008CA9DD /* CDDemo5Tests-Info.plist */,
+				2C7E82431900B1D5008CA9DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C7E821D1900B1D5008CA9DD /* CDDemo5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7E824A1900B1D5008CA9DD /* Build configuration list for PBXNativeTarget "CDDemo5" */;
+			buildPhases = (
+				6970813569764D2A9BEE1612 /* Check Pods Manifest.lock */,
+				2C7E821A1900B1D5008CA9DD /* Sources */,
+				2C7E821B1900B1D5008CA9DD /* Frameworks */,
+				2C7E821C1900B1D5008CA9DD /* Resources */,
+				22F25FEF57474504AEB3BE97 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDDemo5;
+			productName = CDDemo5;
+			productReference = 2C7E821E1900B1D5008CA9DD /* CDDemo5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C7E82381900B1D5008CA9DD /* CDDemo5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C7E824D1900B1D5008CA9DD /* Build configuration list for PBXNativeTarget "CDDemo5Tests" */;
+			buildPhases = (
+				2C7E82351900B1D5008CA9DD /* Sources */,
+				2C7E82361900B1D5008CA9DD /* Frameworks */,
+				2C7E82371900B1D5008CA9DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C7E823F1900B1D5008CA9DD /* PBXTargetDependency */,
+			);
+			name = CDDemo5Tests;
+			productName = CDDemo5Tests;
+			productReference = 2C7E82391900B1D5008CA9DD /* CDDemo5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C7E82161900B1D5008CA9DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = devwu;
+				TargetAttributes = {
+					2C7E82381900B1D5008CA9DD = {
+						TestTargetID = 2C7E821D1900B1D5008CA9DD;
+					};
+				};
+			};
+			buildConfigurationList = 2C7E82191900B1D5008CA9DD /* Build configuration list for PBXProject "CDDemo5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2C7E82151900B1D5008CA9DD;
+			productRefGroup = 2C7E821F1900B1D5008CA9DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C7E821D1900B1D5008CA9DD /* CDDemo5 */,
+				2C7E82381900B1D5008CA9DD /* CDDemo5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C7E821C1900B1D5008CA9DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7E822C1900B1D5008CA9DD /* InfoPlist.strings in Resources */,
+				2C7E82341900B1D5008CA9DD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7E82371900B1D5008CA9DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7E82451900B1D5008CA9DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		22F25FEF57474504AEB3BE97 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-CDDemo5-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6970813569764D2A9BEE1612 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C7E821A1900B1D5008CA9DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7E82321900B1D5008CA9DD /* AppDelegate.m in Sources */,
+				2C7E822E1900B1D5008CA9DD /* main.m in Sources */,
+				2C0302DC1904AF94000670C5 /* Person.m in Sources */,
+				2C0302D91904ABCB000670C5 /* TableViewController.m in Sources */,
+				2C0302D31904AAFB000670C5 /* CDDemo5.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7E82351900B1D5008CA9DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C7E82471900B1D5008CA9DD /* CDDemo5Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C7E823F1900B1D5008CA9DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C7E821D1900B1D5008CA9DD /* CDDemo5 */;
+			targetProxy = 2C7E823E1900B1D5008CA9DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C7E822A1900B1D5008CA9DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C7E822B1900B1D5008CA9DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2C7E82431900B1D5008CA9DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C7E82441900B1D5008CA9DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C7E82481900B1D5008CA9DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C7E82491900B1D5008CA9DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C7E824B1900B1D5008CA9DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999D342B28654DF2BF05DA88 /* Pods-CDDemo5.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDDemo5/CDDemo5-Prefix.pch";
+				INFOPLIST_FILE = "CDDemo5/CDDemo5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2C7E824C1900B1D5008CA9DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999D342B28654DF2BF05DA88 /* Pods-CDDemo5.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDDemo5/CDDemo5-Prefix.pch";
+				INFOPLIST_FILE = "CDDemo5/CDDemo5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2C7E824E1900B1D5008CA9DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CDDemo5.app/CDDemo5";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDDemo5/CDDemo5-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CDDemo5Tests/CDDemo5Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2C7E824F1900B1D5008CA9DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CDDemo5.app/CDDemo5";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDDemo5/CDDemo5-Prefix.pch";
+				INFOPLIST_FILE = "CDDemo5Tests/CDDemo5Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C7E82191900B1D5008CA9DD /* Build configuration list for PBXProject "CDDemo5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7E82481900B1D5008CA9DD /* Debug */,
+				2C7E82491900B1D5008CA9DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C7E824A1900B1D5008CA9DD /* Build configuration list for PBXNativeTarget "CDDemo5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7E824B1900B1D5008CA9DD /* Debug */,
+				2C7E824C1900B1D5008CA9DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C7E824D1900B1D5008CA9DD /* Build configuration list for PBXNativeTarget "CDDemo5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C7E824E1900B1D5008CA9DD /* Debug */,
+				2C7E824F1900B1D5008CA9DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2C0302D11904AAFB000670C5 /* CDDemo5.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2C0302D21904AAFB000670C5 /* CDDemo5.xcdatamodel */,
+			);
+			currentVersion = 2C0302D21904AAFB000670C5 /* CDDemo5.xcdatamodel */;
+			path = CDDemo5.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2C7E82161900B1D5008CA9DD /* Project object */;
+}

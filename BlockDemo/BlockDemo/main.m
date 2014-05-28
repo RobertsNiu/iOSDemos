@@ -43,6 +43,7 @@ typedef void(^Block)(NSString* str1,NSString* str2);
      */
     block1= b1;
     block2= b2;
+
     /**
      *  在循环前触发第一个block
      */
@@ -54,6 +55,7 @@ typedef void(^Block)(NSString* str1,NSString* str2);
      *  在循环后触发第二个block
      */
     b2(@"我是B2",@"结束循环");
+    
 }
 @end
 int main(int argc, const char * argv[])

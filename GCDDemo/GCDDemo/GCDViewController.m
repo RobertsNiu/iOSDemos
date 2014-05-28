@@ -39,7 +39,8 @@
 //    dispatch_get_main_queue();
     
     //并发队列
-//    dispatch_get_global_queue(<#dispatch_queue_priority_t priority#>, <#unsigned long flags#>)
+//   dispatch_get_global_queue
+    
     //在 某一个队列中 异步 执行 代码块
 //    dispatch_async(dispatch_get_main_queue(), ^{
 //        //在主队列中,异步方式休息三秒后,加上一块 红色view
