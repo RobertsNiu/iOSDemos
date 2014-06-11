@@ -1,0 +1,14 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, "6.0"
+
+target "WeChat" do
+pod 'AFNetworking', '~> 2.1.0'
+pod 'MagicalRecord', '~> 2.2'
+pod 'XMPPFramework'
+pod 'JSQSystemSoundPlayer'
+end
+
+target "WeChatTests" do
+
+end
+
