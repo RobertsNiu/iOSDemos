@@ -1,8 +1,0 @@
-target "RACDemo" do
-pod 'ReactiveCocoa'
-end
-
-target "RACDemoTests" do
-
-end
-

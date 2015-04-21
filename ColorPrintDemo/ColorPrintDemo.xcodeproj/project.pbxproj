@@ -511,6 +511,7 @@
 				2CF1F42718D93EF000AA9BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CF1F42818D93EF000AA9BB5 /* Build configuration list for PBXNativeTarget "ColorPrintDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +520,7 @@
 				2CF1F42A18D93EF000AA9BB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

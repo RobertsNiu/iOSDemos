@@ -10,29 +10,29 @@
 	<string>BlockDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8C22E928-55C8-4FCD-AD46-3136281C20A5</key>
-		<string>https://github.com/geek5nan/iOSDemos.git</string>
+		<key>F2B619CCBB360BFAF7AA824E950433B700EE204C</key>
+		<string>github.com:geek5nan/iOSDemos.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>BlockDemo/BlockDemo.xcodeproj/project.xcworkspace</string>
+	<string>BlockDemo/BlockDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8C22E928-55C8-4FCD-AD46-3136281C20A5</key>
+		<key>F2B619CCBB360BFAF7AA824E950433B700EE204C</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/geek5nan/iOSDemos.git</string>
+	<string>github.com:geek5nan/iOSDemos.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8C22E928-55C8-4FCD-AD46-3136281C20A5</string>
+	<string>F2B619CCBB360BFAF7AA824E950433B700EE204C</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8C22E928-55C8-4FCD-AD46-3136281C20A5</string>
+			<string>F2B619CCBB360BFAF7AA824E950433B700EE204C</string>
 			<key>IDESourceControlWCCName</key>
 			<string>iOSDemos</string>
 		</dict>

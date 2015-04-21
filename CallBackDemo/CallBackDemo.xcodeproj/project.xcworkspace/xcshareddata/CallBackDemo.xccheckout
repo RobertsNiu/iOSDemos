@@ -5,23 +5,23 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>A10757B4-6CCE-4F74-82D5-E1A1715DE39F</string>
+	<string>25BD6E45-023B-4208-989E-541C408F0426</string>
 	<key>IDESourceControlProjectName</key>
-	<string>MagicalRecordDemo</string>
+	<string>CallBackDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>F2B619CCBB360BFAF7AA824E950433B700EE204C</key>
-		<string>https://github.com/geek5nan/iOSDemos.git</string>
+		<string>github.com:geek5nan/iOSDemos.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MagicalRecordDemo/MagicalRecordDemo.xcworkspace</string>
+	<string>CallBackDemo/CallBackDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>F2B619CCBB360BFAF7AA824E950433B700EE204C</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/geek5nan/iOSDemos.git</string>
+	<string>github.com:geek5nan/iOSDemos.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
