@@ -99,19 +99,20 @@ __LINE__, \
 /**
  *  导入Lumberjack框架
  */
-#import "DDLog.h"
-#import "DDTTYLogger.h" //Xcode控制台Logger
+#import "CocoaLumberjack.h"
 
 /**
  *  设置输出等级    Verbose>Info>Warn>Error
  */
 #ifdef DEBUG
     //开发模式，在Schema中修改模式
-    static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+    static const int ddLogLevel = DDLogFlagDebug;
 #else
     //发布模式
-    static const int ddLogLevel = LOG_FLAG_WARN;
+    static const int ddLogLevel = DDLogFlagError;
 #endif
+
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -121,16 +122,16 @@ __LINE__, \
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    [DDLog addLogger:[DDTTYLogger sharedInstance]];     //添加Xcode控制台Logger
+    [DDLog addLogger:[DDTTYLogger sharedInstance] withLevel:ddLogLevel];     //添加Xcode控制台Logger
     [[DDTTYLogger sharedInstance]setColorsEnabled:YES];//开启Xcode控制台Logger彩色输出
     /**
      *  设置不同输出颜色
      */
-    [[DDTTYLogger sharedInstance]setForegroundColor:[UIColor redColor] backgroundColor:nil forFlag:LOG_FLAG_ERROR];//DDLogError颜色，默认为暗红色
-    [[DDTTYLogger sharedInstance]setForegroundColor:[UIColor yellowColor] backgroundColor:nil forFlag:LOG_FLAG_WARN];//DDLogWarn，默认为褐色
-    [[DDTTYLogger sharedInstance]setForegroundColor:[UIColor cyanColor] backgroundColor:nil forFlag:LOG_FLAG_INFO];//DDLogInfo,默认为白色
-    [[DDTTYLogger sharedInstance]setForegroundColor:[UIColor whiteColor] backgroundColor:nil forFlag:LOG_FLAG_VERBOSE];//DDLogVerbose,默认为白色
-    [[DDTTYLogger sharedInstance]setForegroundColor:[UIColor blueColor] backgroundColor:nil forFlag:LOG_FLAG_DEBUG];
+    [[DDTTYLogger sharedInstance]setForegroundColor:[UIColor redColor] backgroundColor:nil forFlag:DDLogFlagError];//DDLogError颜色，默认为暗红色
+    [[DDTTYLogger sharedInstance]setForegroundColor:[UIColor yellowColor] backgroundColor:nil forFlag:DDLogFlagWarning];//DDLogWarn，默认为褐色
+    [[DDTTYLogger sharedInstance]setForegroundColor:[UIColor cyanColor] backgroundColor:nil forFlag:DDLogFlagInfo];//DDLogInfo,默认为白色
+    [[DDTTYLogger sharedInstance]setForegroundColor:[UIColor whiteColor] backgroundColor:nil forFlag:DDLogFlagVerbose];//DDLogVerbose,默认为白色
+    [[DDTTYLogger sharedInstance]setForegroundColor:[UIColor blueColor] backgroundColor:nil forFlag:DDLogFlagDebug];
     /**
      *  THIS_FILE,THIS_METHOD 。 Lumberjack框架内置变量，用于表示当前的文件名和方法名
      */
